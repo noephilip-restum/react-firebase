@@ -1,0 +1,45 @@
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_1: white;
+
+.main-container {
+  font-family: $font-family_1;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.button-style {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 15%;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: $background-color_1;
+  cursor: pointer;
+}
+
+.regs-main-container {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.redirect-style {
+  color: blue;
+  margin-top: 2%;
+  text-decoration: underline;
+  cursor: pointer;
+}

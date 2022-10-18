@@ -1,0 +1,39 @@
+$background-color_1: #bfbfbf;
+$background-color_2: white;
+$background-color_3: #f0f0f0;
+
+/*Change color to gray*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-header {
+  background-color: $background-color_1;
+}
+td {
+  border-left: 2px solid black;
+  padding: 8px;
+  text-align: left;
+  width: 33%;
+}
+th {
+  border-left: 2px solid black;
+  padding: 8px;
+  text-align: left;
+  width: 33%;
+}
+tr {
+  background-color: $background-color_2;
+  &:nth-child(even) {
+    background-color: $background-color_3;
+  }
+}
+.table-container {
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  border-left: 0px solid;
+}
+.table-text-align {
+  text-align: center;
+}

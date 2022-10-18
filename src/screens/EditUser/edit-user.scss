@@ -1,0 +1,49 @@
+.edit-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.edit-button-style {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 7%;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+  background-color: #66ffff;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-edit-container {
+  margin-left: -14%;
+}
+
+.edit-input-style {
+  margin-left: 7%;
+  margin-top: 8%;
+  height: 40px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.edit-input-label {
+  width: 250px;
+  text-align: end;
+  font-weight: bold;
+  margin-top: 9.5%;
+  font-size: 16px;
+}
+
+.edit-title {
+  margin-top: 4%;
+  font-weight: bold;
+}

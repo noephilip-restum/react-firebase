@@ -1,0 +1,45 @@
+$background-color_1: #bfbfbf;
+$background-color_2: inherit;
+$background-color_3: white;
+
+.tab {
+  display: flex;
+  overflow: hidden;
+  background-color: $background-color_1;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+  .active {
+    background-color: $background-color_3;
+    border: 2px solid black;
+  }
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tablinks {
+  padding-top: -50px;
+  font-weight: 600;
+  width: 25%;
+  height: 46px;
+  border: 2px solid black;
+  border-right: 0px solid;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  &:hover {
+    background-color: $background-color_3;
+  }
+}
+
+.link-text-tab {
+  margin-top: 10px;
+}
