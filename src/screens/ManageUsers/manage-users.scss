@@ -22,7 +22,6 @@ span {
   position: fixed;
   display: flex;
   justify-content: center;
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -103,15 +102,11 @@ span {
   width: 25%;
   border: 2px solid black;
   border-radius: 10px;
-  background-color: #b3b3b3;
   font-weight: bold;
   margin-right: 45px;
   color: black;
-  border: 2px solid black;
-  border-radius: 10px;
   padding: 4px;
   margin-bottom: 1px;
-  font-weight: bold;
   background-color: #66ffff;
   cursor: pointer;
 }
