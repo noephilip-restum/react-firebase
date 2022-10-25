@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
-var config = {
+const config = {
   apiKey: "AIzaSyDEyHLOyBXiIMYRcVU5nSaL60zmvxJxacM",
   authDomain: "react-app-5e75b.firebaseapp.com",
   databaseURL: "https://react-app-5e75b-default-rtdb.firebaseio.com",
